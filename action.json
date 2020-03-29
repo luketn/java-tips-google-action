@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "description": "Default Welcome Intent",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "sydney-java-tips"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN",
+        "trigger": {
+          "queryPatterns": [
+            "talk to Sydney Java Tips"
+          ]
+        }
+      }
+    }
+  ],
+  "conversations": {
+    "sydney-java-tips": {
+      "name": "Sydney Java Tips",
+      "url": "https://github.com/luketn/java-tips-google-action"
+    }
+  },
+  "locale": "en"
+}
